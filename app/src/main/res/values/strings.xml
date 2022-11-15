@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MontecasteloCloudApp</string>
+    <string name="montecastelo_cloud">Montecastelo Cloud</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="textview1">TextView1</string>
+    <string name="todo">TODO</string>
+    <string name="textview2">TextView2</string>
+    <string name="textview3">TextView3</string>
+    <string name="subir_archivo">Subir Archivo</string>
+    <string name="descargar">Descargar</string>
+
+</resources>
