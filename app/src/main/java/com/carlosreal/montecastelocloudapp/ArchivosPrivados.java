@@ -34,6 +34,7 @@ public class ArchivosPrivados extends AppCompatActivity {
             String Query = "SELECT * FROM ArchivosPrivados WHERE IDUsuario = '" + Usuario + "'";
             Statement St = Conn.createStatement();
             ResultSet RS = St.executeQuery(Query);
+            ListaPrivate.clear();
             if (RS.next()){
                 int Id = RS.getInt(1);
                 String Nombre = RS.getString(2);
@@ -46,6 +47,7 @@ public class ArchivosPrivados extends AppCompatActivity {
             ListaPriv.setOnItemClickListener((adapterView, view, i, l) -> {
                 Intent Intent = new Intent(this, InfoArchivo.class);
                 Intent.putExtra("Archivo", i);
+                Intent.putExtra("Id", Usuario);
                 startActivity(Intent);
             });
         }

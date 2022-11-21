@@ -45,11 +45,20 @@
         android:text="@string/textview3" />
 
     <Button
-        android:id="@+id/buttonDownload"
+        android:id="@+id/buttonDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="80dp"
-        android:text="@string/descargar" />
+        android:text="@string/eliminar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        app:srcCompat="@drawable/folder_zip"
+        android:contentDescription="TODO" />
 </LinearLayout>

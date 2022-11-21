@@ -13,5 +13,6 @@
     <string name="textview3">TextView3</string>
     <string name="subir_archivo">Subir Archivo</string>
     <string name="descargar">Descargar</string>
+    <string name="eliminar">Eliminar</string>
 
 </resources>
