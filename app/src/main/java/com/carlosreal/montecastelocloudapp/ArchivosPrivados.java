@@ -23,7 +23,6 @@ public class ArchivosPrivados extends AppCompatActivity {
 
     private ListView ListaPriv;
     public static ArrayList<ArchivoPrivado> ListaPrivate = new ArrayList<>();
-    private Button AddArchivoPriv;
     Connection Conn;
     int Usuario;
 

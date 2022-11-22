@@ -20,15 +20,6 @@
     <ListView
         android:id="@+id/ListaPublico"
         android:layout_width="match_parent"
-        android:layout_height="519dp" />
-
-    <Button
-        android:id="@+id/buttonUploadPub"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="80dp"
-        android:text="@string/subir_archivo" />
+        android:layout_height="626dp" />
 
 </LinearLayout>
